@@ -12,5 +12,5 @@ This repository provides Matlab code for the paper [arXiv:21XX.XXXXX]
 
 * [MATLAB](https://www.mathworks.com/products/matlab.html). 
 * [QETLAB](https://github.com/nathanieljohnston/QETLAB).
-* [YALMIP](https://yalmip.github.io/) with a solver: [SDPT3](https://github.com/SQLP/SDPT3) is free, while [MOSEK](http://cvxr.com/cvx/doc/mosek.html) is free for academic
+* [YALMIP](https://yalmip.github.io/) with a solver: [SDPT3](https://github.com/SQLP/SDPT3) is free, while [MOSEK](http://cvxr.com/cvx/doc/mosek.html) is commercial, but free for academic use.
 
