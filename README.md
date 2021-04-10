@@ -1,4 +1,4 @@
-# multipar-purification-bounds
+# Purification-based channel bounds for multiparameter quantum estimation
 
 This repository provides Matlab code for the paper [arXiv:21XX.XXXXX]
 
