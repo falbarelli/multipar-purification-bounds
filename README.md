@@ -24,9 +24,10 @@ evaluates the optimal total QFI, either for a single use of the channel `version
 ```
 gives an optimal state attaining the optimal total QFI and the corresponding QFI matrix.
 
-Some possibly nontrivial conventions are that the Kraus operators `K1,K2,...` are stacked in column as `KrausOps=[ K1 ; K2 ; K3; ... ]` and their partial derivatives, stacked in column, one parameter after the other as `KrausOpsDeriv=[ d1K1 ; d1K2 ; K3; ... d2K1 ; d2K2; d2K3 ...   ]`.
+Some possibly nontrivial conventions are that the Kraus operators `K1,K2,...` are stacked in column as `KrausOps=[ K1 ; K2 ; K3; ... ]` and their partial derivatives are also stacked in column, one parameter after the other, as `KrausOpsDeriv=[ d1K1 ; d1K2 ; d1K3; ... d2K1 ; d2K2; d2K3 ...   ]`.
 The purification matrices are returned in a single tensor of dimension `[ nKraus, nKraus, npar ]` and are individually accessed as `hvec(:,:,i)`. 
-The other input arguments should be intuitive, the program does not check for consistency among the provided dimensions, so make sure to provide consistent input data.
+The other input arguments should be intuitive.
+The functions do not have sanity checks, so make sure to provide consistent input data.
 A detailed description of the input and output arguments can be obtained by typing `help totalQFI_SDP` and `help optistate_SDP` in the MATLAB Command Window.
 
 ### Requirements
