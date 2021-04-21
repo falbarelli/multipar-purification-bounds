@@ -7,11 +7,11 @@ However, the functions provided here work only in the multiparameter channel est
 
 ### Usage
 
-We provide one function:
+We provide the function
 ```
 	[trFIbound,hvec ] = totalQFI_SDP(KrausOps,KrausOpsDeriv,npar,nKraus,version,dimIn,dimOut,wInv)
 ```
-that evaluates the optimal total QFI `trFIbound`, either for a single use of the channel `variant=single` or it gives the asymptotic standard quantum limit bound with `variant=asymptotic`.
+that evaluates the optimal total QFI `trFIbound`, either for a single use of the channel `variant='single'` or it gives the asymptotic standard quantum limit bound with `variant='asymptotic'`.
 <!-- 
 ```
 	[] = optistate_SDP()
@@ -22,7 +22,8 @@ Some possibly nontrivial conventions for using the function are that the Kraus o
 The purification matrices are returned in a single tensor of dimension `[ nKraus, nKraus, npar ]` and are individually accessed as `hvec(:,:,i)`. 
 The other input arguments should be intuitive.
 The functions do not have sanity checks, so make sure to provide consistent input data.
-A detailed description of the input and output arguments can be obtained by typing `help totalQFI_SDP` and `help optistate_SDP` in the MATLAB Command Window.
+A detailed description of the input and output arguments can be obtained by typing `help totalQFI_SDP` in the MATLAB Command Window.
+<!-- and `help optistate_SDP` in the MATLAB Command Window. -->
 
 ### Examples
 
