@@ -27,7 +27,7 @@ A detailed description of the input and output arguments can be obtained by typi
 
 ### Examples
 
-The files `hamiltonian_erasure.m`, `multiphase_loss.m`, `phase_loss.m` and `phase_dephasing.m` are the examples considered in the paper and can be inspected for further instruction on how to use the main function.
+The files `hamiltonian_erasure.m`, `multiphase_loss.m`, `phase_loss.m`, `phase_dephasing.m`, `GADchannel.m` and `grover_dephasing.m` are the examples considered in the paper and can be inspected for further instruction on how to use the main function and to check numerically the analytical results reported in the paper.
 
 ### Requirements
 
