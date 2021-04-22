@@ -9,7 +9,7 @@ However, the functions provided here work only in the multiparameter channel est
 
 We provide the function
 ```
-	[trFIbound,hvec ] = totalQFI_SDP(KrausOps,KrausOpsDeriv,npar,nKraus,version,dimIn,dimOut,wInv)
+[trFIbound,hvec ] = totalQFI_SDP(KrausOps,KrausOpsDeriv,npar,nKraus,variant,dimIn,dimOut,wInv)
 ```
 that evaluates the optimal total QFI `trFIbound`, either for a single use of the channel `variant='single'` or it gives the asymptotic standard quantum limit bound with `variant='asymptotic'`.
 <!-- 
