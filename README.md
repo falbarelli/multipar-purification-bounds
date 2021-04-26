@@ -1,6 +1,6 @@
 ## Purification-based bounds for multiparameter quantum channel estimation
 
-This repository provides MATLAB code to evaluate the bounds derived in the paper [F. Albarelli and R. Demkowicz-Dobrzański, "Probe incompatibility in multiparameter noisy quantum channel estimation", arXiv:2104:XXXX](https://arxiv.org/)
+This repository provides MATLAB code to evaluate the bounds derived in the paper [F. Albarelli and R. Demkowicz-Dobrzański, "Probe incompatibility in multiparameter noisy quantum channel estimation", arXiv:2104:XXXX](http://arxiv.org/abs/2104.11264)
 
 In the paper the general scenario of bounding the sum of the single-parameter QFI of different channels is considered (i.e. the random sensing scenario described in the paper).
 However, the functions provided here work only in the multiparameter channel estimation setting, where there is only one channel.
